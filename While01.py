@@ -7,3 +7,6 @@ def main(s):
         int: return answer
     """
     return
+s = "python"
+print(s [0: 4])
+
