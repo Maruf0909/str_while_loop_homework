@@ -6,7 +6,13 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
-s = "python"
-print(s [0: 4])
+    i=0
+    n=0
+    while n<len(s):
+        if s[n].isdigit():
+            i=i+1
+        n=n+1
+    return i 
+print(main("python 2023"))          
+
 
